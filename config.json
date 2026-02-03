@@ -1,0 +1,12 @@
+{
+  "files": [
+    "/etc/resolv.conf"
+  ],
+  "folders": [
+    "/etc/nginx"
+  ],
+  "options": {
+    "include_hidden": true,
+    "include_subfolders": true
+  }
+}

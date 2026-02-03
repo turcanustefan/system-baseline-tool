@@ -1,3 +1,10 @@
+"""
+Script developed by https://github.com/turcanustefan/system-baseline-tool
+This script is licensed under the MIT License.
+You are free to use, modify, and distribute this software as long as
+you include the original copyright notice and license terms.
+This software is provided "as is", without warranty of any kind.
+"""
 import hashlib
 import base64
 import os
@@ -30,5 +37,3 @@ def create_baseline(baseline_file):
         for file_path, file_data in baseline.items():
             f.write(f"{file_path} {file_data['hash']} {file_data['content']}\n")
     print(f"Baseline created at {baseline_file}")
-
-    return baseline
